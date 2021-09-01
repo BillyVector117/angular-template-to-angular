@@ -7,6 +7,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
+import { HttpClientModule } from "@angular/common/http"
 // Routes
 import { AppRoutingModule } from './app-routing.module';
 
@@ -20,8 +21,10 @@ import { AppRoutingModule } from './app-routing.module';
     ItemComponent
   ],
   imports: [
+    // Modules are provided at imports section (here)
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule, // Allows make REST requests
   ],
   providers: [],
   bootstrap: [AppComponent]
