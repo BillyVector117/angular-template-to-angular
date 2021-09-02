@@ -11,7 +11,7 @@ export class HeaderComponent implements OnInit {
   // can be used in the HTML component (Header in this case)
   
   constructor(public serviceInfo: InfoPageService) {
-    console.log(serviceInfo)
+    //console.log(serviceInfo)
    }
 
   ngOnInit(): void {

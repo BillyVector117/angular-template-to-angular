@@ -9,3 +9,10 @@ export interface InfoPage {
     tumblr?: string;
     team_work?: string;
 }
+export interface InfoTeamWork {
+    name?: string;
+    phrase?: string;
+    subtitle?: string;
+    twitter?: string;
+    url?: string;
+}

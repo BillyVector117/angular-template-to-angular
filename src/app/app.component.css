@@ -1,0 +1,7 @@
+/*
+  LOADER COLOR
+*/
+svg path,
+svg rect{
+  fill: black;
+}
